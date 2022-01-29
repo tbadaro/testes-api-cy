@@ -23,7 +23,7 @@ pipeline {
 
         stage('Iniciar testes') {
             steps {
-                sleep 60
+                sleep 10
                 bat 'npm run cy:run'
             }
         }
